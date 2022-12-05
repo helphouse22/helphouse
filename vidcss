@@ -1,0 +1,126 @@
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+body::-webkit-scrollbar-track {
+    background: #fff8f2;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #cd5d43;
+}
+main {
+    background: #fff8f2;
+}
+li, input, p, h2{
+    font-family: 'Montserrat';
+}
+ul {
+    list-style: none;
+}
+a {
+    outline: none;
+}
+.header {
+    flex: 0 0 auto;
+    background: #cd5d43;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+    background: #cd5d43;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.padding-header {
+    padding-top: 100px;
+}
+.logo img {
+    width: 50px;
+    border: 2px solid #fff8f2;
+    border-radius: 50%;
+}
+.site-name {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff8f2;
+}
+.nav-item {
+    color: #fff8f2;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+.nav-item:hover {
+    background: #fff8f2;
+    color: #cd5d43;
+}
+.search-btn {
+    background: url("../img/search-bg.svg") no-repeat center center / cover;
+    padding: 5px 17px;
+    border: none;
+    outline: none;
+}
+.search-input {
+    padding: 5px 17px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff8f2;
+    font-weight: 700;
+}
+.search_wrapper {
+    border: 2px solid #fff8f2;
+    border-radius: 100px;
+}
+.search-input::placeholder {
+    color: #fff8f2;
+}
+.copyright {
+    font-weight: 700;
+    color: #fff8f2;
+}
+.socials img{
+    width: 50px;
+    height: 50px;
+}
+.title {
+    color: #cd5d43;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #cd5d43;
+}
+.about-us__img img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.news-single__img {
+    object-fit: cover;
+}
+.news-btn {
+    color: #cd5d43;
+    text-decoration: none;
+    padding: 5px 10px 5px 0;
+    transition: 0.2s;
+}
+.news-btn::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+    background: #cd5d43;
+}
+.news-btn:hover  {
+    color: #cd5d43;
+    border-bottom: 1px solid #cd5d43;
+}
+.content-body, .content-header__title, .content-header__date {
+    color: #583b23;
+    font-family: 'Montserrat';
+}
+.content-header {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #583b23;
+}
