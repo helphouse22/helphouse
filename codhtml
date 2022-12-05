@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HelpHouse</title>
+		<!-- Подключение шрифтов -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<!-- Подключение библиотеки иконок -->
+		<script src="https://kit.fontawesome.com/fe06209094.js" crossorigin="anonymous"></script>
+		<!-- Подключение CSS библиотекии Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<!-- Подключение файла со стилями -->
+		<link rel="stylesheet" href="/css/style.css">
+		<!-- Иконка для вкладки -->
+		<link rel="icon" type="image/png" href="/img/logo.svg">
+	</head>
+  	<body class="h-100 d-flex flex-column">
+    	<header class="header py-3 position-fixed w-100">
+			<div class="container">
+				<div class="d-flex align-items-center">
+					<div class="col-lg-3">
+						<div class="logo d-flex align-items-center">
+							<a href="" class="d-flex text-decoration-none">
+								<img src="/img/logo.svg" alt="" class="img-fluid me-3">
+								<h1 class="site-name p-0 m-0">HelpHouse</h1>
+							</a>
+						</div>
+					</div>
+					<div class="navigation align-items-center d-flex col-lg-6">
+						<ul class="d-flex p-0 m-0 align-items-center">
+							<li><a href="" class="nav-item text-decoration-none mx-2">Главная</a></li>
+							<li><a href="" class="nav-item text-decoration-none mx-2">Кулинария</a></li>
+							<li><a href="" class="nav-item text-decoration-none mx-2">Ремонт</a></li>
+							<li><a href="" class="nav-item text-decoration-none mx-2">Интерьер</a></li>
+							<li><a href="" class="nav-item text-decoration-none mx-2">Декор</a></li>
+						</ul>
+					</div>
+					<div class="search col-lg-3 d-flex">
+						<div class="search_wrapper p-2 d-flex align-items-center justify-content-end">
+							<input type="submit" value="" class="search-btn">
+							<input type="search" placeholder="Поиск..." class="search-input">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main padding-header d-flex align-items-center justify-content-center">
+			<section class="about-us">
+				<div class="container">
+					<div class="d-flex flex-wrap align-items-center">
+						<div class="col-lg-7 pe-md-2">
+							<h2 class="title col-lg-10">О нас</h2>
+							<div class="d-flex flex-column align-items-center justify-content-center">
+								<p>Даже дома мы часто сталкиваемся с проблемами, которые могут показаться простыми на первый взгляд. Но найти ответы на волнующие нас вопросы не всегда легко. Как стирать шерсть? Что приготовить на обед? Как починить кран? Наш сайт точно сможет найти ответ!</p>
+								<p>Вы сможете найти множество эксклюзивных статей и советов, которые помогут вам решить любой домашний вопрос!</p>
+							</div>
+						</div>
+						<div class="col-lg-5 about-us__img">
+							<img src="https://cabanatuaneast.ph/wp-content/uploads/2019/10/Top-5-Benefits-of-Living-in-a-Row-House.jpg" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer py-3">
+			<div class="container">
+				<div class="d-flex align-items-center">
+					<div class="col-lg-3">
+						<div class="logo d-flex align-items-center">
+							<img src="/img/logo.svg" alt="" class="img-fluid me-3">
+							<h1 class="site-name p-0 m-0">HelpHouse</h1>
+						</div>
+					</div>
+					<div class="col-lg-6 copyright align-items-center d-flex justify-content-center">
+						<p class="p-0 m-0">&#169; 2022 - Студенты группы "Пиб-19Э1"</p>
+					</div>
+					<div class="socials col-lg-3 d-flex justify-content-end">
+						<a href="vk.com"><img src="/img/vk.png" alt="" class="mx-2"></a>
+						<a href="ok.ru"><img src="/img/ok.png" alt="" class="mx-2"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  	</body>
+</html>
